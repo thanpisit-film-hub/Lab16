@@ -44,7 +44,7 @@ void showData(double *sum2, int N, int M){
 
 void randData(double *dPtr, int N, int M){
     for(int i = 0; i < N*M; i++){
-        *(dPtr + i) = double(rand() % 100 +1) / 100;
+        *(dPtr + i) = double(rand() % 101) / 100;
     }
 }
 
